@@ -1,4 +1,4 @@
-#The programs receives in input two integer numbers and then prints the highest
+#Given two integer numbers in input prints the greater
 
 print('Input 2 numbers\n')
 a = int(input('The first: '))
