@@ -1,4 +1,4 @@
-#Given two numbers the program prints the highest and checks wether the input is a number or not
+#Given two numbers the program prints the highest and checks whether the input is a number or not
 
 i=1
 
