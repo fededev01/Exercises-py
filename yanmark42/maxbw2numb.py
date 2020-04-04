@@ -7,7 +7,7 @@ while i==1:
 
     a = input('The first: ')
 
-    if a.isalpha(): 
+    if a.isalpha(): #.isalpha checks if the input is a letter
         print('Only numbers!\n')
         continue
 
