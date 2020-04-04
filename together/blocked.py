@@ -1,25 +1,21 @@
-def max_in_list(num):
+lista = []
+lista.append((int(input("enter your new number\n"))))
+lista.append((int(input("enter your new number\n"))))
+lista.append((int(input("enter your new number\n"))))
+lista.append((int(input("enter your new number\n"))))
+
+
+x = lista.copy()
+print("Your numbers are: ") 
+print(x)
+
+def max_in_list(lista):
     max = 0
-
-num = []
-
-sed = input("Do you want add a number?\n")
-
-if sed == si:
-    num.append((int(input("enter your first number\n"))))
-else: print ("ok")    
-
-
-
-
-
-x = num.copy()
-print("Your numbers are: " + x)
-
-for numero in num:
+    for numero in lista:
         if numero > max:
             max = numero
-print('Il numero più grande della lista passata è ' + str(max))
+    print('Il numero più grande della lista passata è ' + str(max))
 
 
-max_in_list(num)
+max_in_list(lista)
+
