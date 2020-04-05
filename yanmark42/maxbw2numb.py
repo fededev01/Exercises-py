@@ -1,4 +1,5 @@
 #Given two numbers the program prints the highest and checks whether the input is a number or not
+#doesn't work really well, ignore it, use easier version instead
 
 i=1
 
