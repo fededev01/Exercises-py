@@ -10,4 +10,5 @@ Write a function that takes two numbers as a parameter and prints the larger of 
 Although Python has a max() function, use the If, Elif and Else statements
 for writing the algorithm.
 
-[Link](https://www.programmareinpython.it/esercizi-pytho)
+## Link
+You can find the exercise [here](https://www.programmareinpython.it/esercizi-python)
