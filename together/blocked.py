@@ -18,7 +18,7 @@ def max_in_list(lista):
     for numero in lista:
         if numero > max:
             max = numero
-    print('Il numero più grande della lista passata è ' + str(max))
+    print('Il numero più grande della lista è ' + str(max))
 
 
 max_in_list(lista)
