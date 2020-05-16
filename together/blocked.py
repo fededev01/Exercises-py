@@ -1,13 +1,17 @@
 lista = []
-lista.append((int(input("enter your new number\n"))))
-lista.append((int(input("enter your new number\n"))))
-lista.append((int(input("enter your new number\n"))))
-lista.append((int(input("enter your new number\n"))))
+
+how_many = int(input("Quanti numeri vuoi inserire? \n"))
 
 
-x = lista.copy()
+for x in range(how_many):
+    num = int(input("Insert here your number: \n"))
+    lista.append(num)
+    
+    
+
+m = lista.copy()
 print("Your numbers are: ") 
-print(x)
+print(m)
 
 def max_in_list(lista):
     max = 0
