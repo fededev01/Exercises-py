@@ -8,10 +8,12 @@ for x in range(how_many):
     lista.append(num)
     
     
-
-m = lista.copy()
+'''
+il metodo .copy() serve per copiare una lista
+'''
+# m = lista.copy()
 print("Your numbers are: ") 
-print(m)
+print(lista)
 
 def max_in_list(lista):
     max = 0
