@@ -15,7 +15,7 @@ il metodo .copy() serve per copiare una lista
 print("Your numbers are: ") 
 print(lista)
 
-def max_in_list(lista):
+def max_in_list(list):
     max = 0
     for numero in lista:
         if numero > max:
